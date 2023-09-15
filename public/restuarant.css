@@ -1,0 +1,71 @@
+body{
+    background: rgb(255, 255, 255) !important;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    }
+    .mainnav {
+        display: flex;
+        padding: 10px;
+        background-color: #FF6F61 !important;
+    }
+    /* h2{
+        display: flex;
+        justify-content: center;
+        font-weight: bolder;
+        margin-top: 40px !important;
+        font-family: Arial, Helvetica, sans-serif;
+      
+    } */
+    label{
+        font-size: large;
+        font-family: Arial, Helvetica, sans-serif;
+    
+        font-weight:bolder;
+    }
+    #adddishbtn{
+        display: flex;
+        justify-content: center ;
+        margin: 0 auto;
+        margin-bottom: 15px;
+        margin-top: 0 auto;
+        text-align: center;
+    }
+
+    .head2{
+        color: #BB2D3B ;
+        font-weight: bold;
+    }
+
+    .head1{
+        color: #BB2D3B;
+        font-weight: bold;
+    }
+
+    #adddishes{
+        margin-left: 10px;
+        color: #BB2D3B;
+    }
+
+    .pic{
+        display: grid;
+        place-items: center ;
+        opacity: 0.3;
+    }
+    
+    .dishesList{
+        display: flex;
+        justify-content: center;
+        margin-right: 10px;
+    }
+
+    .dish{
+        border: 10px;
+        border-radius: 8px;
+        box-shadow: 2px;
+        padding: 20px;
+        width: 300px;
+        background-color: #FF6F61;
+        margin-right: 10px;
+        color: #BB2D3B;
+        justify-content: center;
+        margin-left: 15px;
+    }
